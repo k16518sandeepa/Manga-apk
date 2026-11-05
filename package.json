@@ -1,0 +1,19 @@
+{
+  "name": "inkpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ad-free, offline manga & comic reader",
+  "scripts": {
+    "prepare-web": "node scripts/prepare.js",
+    "build": "node scripts/prepare.js",
+    "sync": "node scripts/prepare.js && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "jszip": "^3.10.1",
+    "libarchive.js": "^2.0.2",
+    "pdfjs-dist": "3.11.174"
+  }
+}

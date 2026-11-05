@@ -1,0 +1,8 @@
+{
+  "appId": "com.inkpage.reader",
+  "appName": "Inkpage",
+  "webDir": "www",
+  "backgroundColor": "#0e0f13",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}
